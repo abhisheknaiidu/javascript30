@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Lalezar&display=swap');
+html {
+    font-size: 20px;
+    background-image: linear-gradient(to right top, #a82227, #8c153f, #671c49, #3f1f43, #1f1b31, #19192d, #131729, #0e1524, #121a35, #1c1e46, #2c2155, #402062);    
+    background-size: cover;
+}
+ 
+body,html {
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.key {
+    border: 1rem white;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.9rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    text-shadow: 0 0 1rem white;
+    transition: all .07s ease;
+    font-family: 'Caveat', cursive;
+
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: whitesmoke;
+    box-shadow: 0 0 1rem #69bff8;
+
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+    font-family: 'Lalezar', cursive;
+
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem ;
+    color: whitesmoke;
+}
+

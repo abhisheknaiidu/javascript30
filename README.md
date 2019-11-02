@@ -24,3 +24,9 @@ Link : https://abhisheknaiidu.github.io/JavaScript30/Day4/
 
 ![Screenshot](Day4.png)
 
+Day6 : JS Type-Writer Effect
+
+Link : https://abhisheknaiidu.github.io/JavaScript30/Day6/
+
+![Screenshot](Day6.png)
+

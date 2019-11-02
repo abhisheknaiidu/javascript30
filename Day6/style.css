@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Reenie Beanie', cursive;
+
+}
+
+.intro {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+.heading {
+  top: 40%;
+  left: 30%;
+  position: absolute;  
+  text-align: center;  
+  display: flex;
+  font-size: 30px;
+}
+.typing {
+    margin-left: 20px;
+    position: relative;
+}
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 55px;
+    border-right: 2px solid white;
+    right: -5px;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

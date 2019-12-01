@@ -30,3 +30,7 @@ Link : https://abhisheknaiidu.github.io/JavaScript30/Day6/
 
 ![Screenshot](Day6.png)
 
+
+Day7 : JS Fastest Finger Game!
+
+![Screenshot](Day7.png)

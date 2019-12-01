@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day7</title>
+</head>
+<body>
+    <style>
+
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+
+    .winner{
+        color: blue;
+    }
+    
+    body {
+        text-align: center;
+        margin-top: 10%;
+        font-family: 'Reenie Beanie', cursive;
+        font-size:30px;
+        background-image: url("https://images.unsplash.com/photo-1575119712755-3b07a9d649f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    input {
+     width: 30%;
+    }
+
+    button {
+
+        color: green;
+    }
+
+    </style>
+   <h1>Fastest Finger Game!</h1>
+   <h1>
+       <span id="p1Display">0</span> TO <span id="p2Display">0</span>
+   </h1>
+
+   <h3>Game Proceeds Until The Player Clicks <span id="winning">n</span> times</h3>
+   <h3> P.S - First of All, give an input inside the input form and press Enter, to provide how many times you want to play the GAME~</h3>
+   <input type="text" placeholder="Enter the times how many you want to play!">
+   <button class="p1">Player-1</button> 
+   <button class="p2">Player-2 </button>   
+   <button class="reset">Reset</button>
+
+
+<script src="script.js"></script>
+</body>
+</html>

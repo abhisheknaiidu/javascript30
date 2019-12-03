@@ -1,0 +1,16 @@
+<style>
+body {
+   
+   text-align: center
+
+}
+
+</style>
+
+<h1>Movie Results Page</h1>
+
+<% data["Search"].forEach((movie) =>  { %>
+
+    <li> <%=  movie["Title"] %>  - <%= movie["Year"]  %></li>
+
+<% })          %> 

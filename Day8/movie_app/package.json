@@ -1,0 +1,17 @@
+{
+  "name": "movie_app",
+  "version": "1.0.0",
+  "description": "Movie App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "requests": "^0.3.0"
+  }
+}

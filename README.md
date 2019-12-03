@@ -1,36 +1,40 @@
 # JAVASCRIPT 30 Days Challenge :
 
-Day 1 : Drum Kit
+## Day 1 : Drum Kit
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day1/
 
 ![Screenshot](Day1.png)
 
-Day2 : Clock With Hour, Minute and Seconds Hand
+## Day2 : Clock With Hour, Minute and Seconds Hand
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day2/
 
 ![Screenshot](Day2.png)
 
-Day3 : JS Effects
+## Day3 : JS Effects
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day3/
 
 ![Screenshot](Day3.png)
 
-Day4 : JS Flex Effects
+## Day4 : JS Flex Effects
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day4/
 
 ![Screenshot](Day4.png)
 
-Day6 : JS Type-Writer Effect
+## Day5 : Hamburger Nav-Bar
+
+## Day6 : JS Type-Writer Effect
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day6/
 
 ![Screenshot](Day6.png)
 
 
-Day7 : JS Fastest Finger Game!
+## Day7 : JS Fastest Finger Game!
 
 ![Screenshot](Day7.png)
+
+## Day8 : Movie App With Node.JS 

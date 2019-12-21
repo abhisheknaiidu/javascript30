@@ -43,7 +43,11 @@ Link : https://abhisheknaiidu.github.io/JavaScript30/Day6/
 
 ![Screenshot](Blog.png)
 
+Link : https://github.com/abhisheknaiidu/Dev-s-Blog
+
 ## Day13-Day14 : Working With Api's ft. Github Api
 
 ![Screenshot](github.png)
+
+Link : https://github.com/abhisheknaiidu/JavaScript30/tree/master/react/github_api
 

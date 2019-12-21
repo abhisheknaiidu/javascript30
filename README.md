@@ -41,4 +41,9 @@ Link : https://abhisheknaiidu.github.io/JavaScript30/Day6/
 
 ## Day9-Day12 : Dev's Blog
 
+![Screenshot](Blog.png)
+
 ## Day13-Day14 : Working With Api's ft. Github Api
+
+![Screenshot](github.png)
+

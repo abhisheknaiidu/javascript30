@@ -38,3 +38,7 @@ Link : https://abhisheknaiidu.github.io/JavaScript30/Day6/
 ![Screenshot](Day7.png)
 
 ## Day8 : Movie App With Node.JS 
+
+## Day9-Day12 : Dev's Blog
+
+## Day13-Day14 : Working With Api's ft. Github Api

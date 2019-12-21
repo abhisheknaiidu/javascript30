@@ -1,0 +1,24 @@
+.navbar {
+  padding:25px;
+  background-color: black;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+}

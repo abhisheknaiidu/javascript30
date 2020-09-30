@@ -51,3 +51,7 @@ Link : https://github.com/abhisheknaiidu/Dev-s-Blog
 
 Link : https://github.com/abhisheknaiidu/JavaScript30/tree/master/react/github_api
 
+## Currency Exchange Rate Calculator
+Javascript application for check real time currency rates.
+![Screenshot](https://github.com/Yoddha99/javascript30/blob/master/LiveCurrencyexchange/sss.png)
+

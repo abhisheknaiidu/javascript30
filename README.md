@@ -52,12 +52,6 @@ Link : https://github.com/abhisheknaiidu/Dev-s-Blog
 Link : https://github.com/abhisheknaiidu/JavaScript30/tree/master/react/github_api
 
 
-## Day15-Day16 : URL Shortener
-
-![Screenshot](urlshortener.png)
-
-Link : https://github.com/Rajdeepc/url-shortener
-
 
 
 

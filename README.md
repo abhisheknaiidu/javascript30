@@ -1,5 +1,8 @@
 # JAVASCRIPT 30 Days Challenge :
 
+
+## Day 0 : Music Player
+
 ## Day 1 : Drum Kit
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day1/

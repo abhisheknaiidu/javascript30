@@ -3,7 +3,7 @@
 
 ## Day 0 : Music Player
 
-![Screenshot](Day0.png)
+![Screenshot](Day0.PNG)
 
 ## Day 1 : Drum Kit
 

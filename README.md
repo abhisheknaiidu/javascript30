@@ -3,6 +3,8 @@
 
 ## Day 0 : Music Player
 
+![Screenshot](Day0.png)
+
 ## Day 1 : Drum Kit
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day1/

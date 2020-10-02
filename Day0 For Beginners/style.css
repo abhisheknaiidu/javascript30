@@ -1,0 +1,84 @@
+*{
+ margin: 0; padding: 0;
+ box-sizing: border-box; font-family: 'Maven Pro', sans-serif;
+}
+ fa fa-music{
+ 	color: red;
+ }
+ body{
+ 	background-color: black;
+ }
+
+h1{
+ text-align: center; font-size: 1.8rem;
+ color: #444; padding: 30px 0; 
+}
+
+
+main{
+ width: 90%; height: 550px;
+ margin: auto; border: 1px solid black;
+ display: flex; justify-content: space-around;
+ align-items: center; flex-wrap: wrap;
+}
+div{
+ width: 30%; height: 160px;
+ /*border: 1px solid red;*/
+ box-shadow: 2px 2px 5px red;
+ border-radius: 10px; cursor:pointer;
+
+}
+/*for images*/
+.a{
+  background-image: url('Images/1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.b{
+  background-image: url('Images/2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.c{
+  background-image: url('Images/3.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.d{
+  background-image: url('Images/4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.e{
+  background-image: url('Images/5.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.f{
+  background-image: url('Images/6.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+.g{
+  background-image: url('Images/8.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.h{
+  background-image: url('Images/9.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.i{
+  background-image: url('Images/7.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+

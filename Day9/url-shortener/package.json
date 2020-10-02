@@ -1,0 +1,35 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^3.0.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "joi-objectid": "^3.0.1",
+    "json-find": "^2.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.2.15",
+    "shortid": "^2.2.15",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "engines": {
+    "node": "10.16.0"
+}
+}

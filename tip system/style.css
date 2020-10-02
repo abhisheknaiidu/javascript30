@@ -1,0 +1,139 @@
+body {
+    background: url(logo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .container {
+    height: 480px;
+    width: 360px;
+    margin-top:300px;
+    margin-left:auto;
+    margin-right:auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+  
+  h1 {
+    background: #a70e00;
+    color: white;
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  p {
+    padding-left: 20px;
+  }
+  
+  form input[type="text"] {
+    width=90px;
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+  
+  .billamt {
+    font-size: 14px;
+    color: #red;
+    background-color: #f7f7f7;
+    width: 57%;
+    padding: auto;
+    height: 30px;
+  }
+  
+  .billamt:focus {
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+  }
+  
+  .peopleamt {
+    width: 58%;
+    padding: 5px 5px 8px 5px;
+    height: 25px;
+    margin-left: 45px;
+    color: #red;
+    background-color: #f7f7f7;
+    font-size: 14px;
+  }
+  
+  .serviceQual {
+    padding: auto;
+    margin-left:auto;
+    margin-right:auto;
+    height: 40px;
+    width: 66%;
+    margin-left: 24px;
+    font-size: 14px;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background:  #a70e00;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background: #d09565;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  .totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  .totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+  .op1{
+      background-color:rgb(71, 209, 71);
+      color: white;
+  }
+  .op2{
+      background-color: #ffc000;
+      color: white;
+  }
+  .op3{
+      background-color: #d30505;
+      color: white;
+  }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> DEMO</title>
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<h1><i class="fa fa-music" aria-hidden="true"></i >MUSIC PLAYER <i class="fa fa-music" aria-hidden="true"></i> </h1>
+<h3 style="color:red;">CLICK TO PLAY</h3>
+<h3 style="color:red;">DOUBLE CLICK TO PAUSE</h3>
+<main>
+	<div class="a song">a</div>
+	<div class="b song">b</div>
+	<div class="c song">c</div>
+	<div class="d song">d</div>
+	<div class="e song">e</div>
+	<div class="f song">f</div>
+	<div class="g song">g</div>
+	<div class="h song">h</div>
+	<div class="i song">i</div>
+</main>
+<script >
+var divlenght = document.querySelectorAll('.song').length;
+console.log(divlenght);
+
+for(var i=0; i<divlenght; i++) {
+ var demo = document.querySelectorAll('.song')[i].addEventListener('click',playsong);
+  var demo = document.querySelectorAll('.song')[i].addEventListener('dblclick',pausesong);
+}
+  var song1= new Audio();
+  song1.src = "Sounds/levitate.mp3"
+
+var song2 = new Audio();
+song2.src = "Sounds/god.mp3";
+
+
+var song3 = new Audio();
+song3.src = "Sounds/dna.mp3";
+
+var song4 = new Audio();
+song4.src = "Sounds/legend.mp3";
+
+var song5 = new Audio();
+song5.src = "Sounds/NF_-_WHY.mp3";
+
+var song6 = new Audio();
+song6.src = "Sounds/Post_Malone_-_Psycho_ft._Ty_Dolla_$ign.mp3";
+
+var song7 = new Audio();
+song7.src = "Sounds/side.mp3";
+
+var song8 = new Audio();
+song8.src = "Sounds/XXXTENTACION_-_SAD!.mp3";
+
+var song9 = new Audio();
+song9.src = "Sounds/rockstar.mp3";
+
+
+	function playsong(){
+ var songId = this.innerHTML;
+ console.log(songId);
+
+ switch (songId) {
+  case "a":
+   song1.play();
+   break;
+
+  case "b":
+   song2.play();
+   break;
+
+  case "c":
+   song3.play();
+   break;
+
+  case "d":
+   song4.play();
+   break;
+
+  case "e":
+   song5.play();
+   break;
+
+  case "f":
+   song6.play();
+   break;
+
+  case "g":
+   song7.play();
+   break;
+
+  case "h":
+   song8.play();
+   break;
+
+  case "i":
+   song9.play();
+   break;
+
+  default:
+   console.log("wrong input");
+   break;
+ }
+}
+
+function pausesong(){
+ var songId = this.innerHTML;
+ console.log(songId);
+
+ switch (songId) {
+  case "a":
+   song1.pause();
+   break;
+
+  case "b":
+   song2.pause();
+   break;
+
+  case "c":
+   song3.pause();
+   break;
+
+  case "d":
+   song4.pause();
+   break;
+
+  case "e":
+   song5.pause();
+   break;
+
+  case "f":
+   song6.pause();
+   break;
+
+  case "g":
+   song7.pause();
+   break;
+
+  case "h":
+   song8.pause();
+   break;
+
+  case "i":
+   song9.pause();
+   break;
+
+  default:
+   console.log("wrong input");
+   break;
+ }
+}
+</script>

@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	color: white;
+	background-color: #090a1d;
+	font-family: sans-serif;
+	min-height: 100vh;
+}
+.displayCount {
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 30vh;
+}
+.count {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 20vh;
+	min-width: 20vh;
+	border: 1px solid rgb(4, 197, 197);
+	border-radius: 50%;
+}
+.caption {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 30vh;
+}
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.iPeed {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	cursor: pointer;
+	background: transparent;
+	color: white;
+	padding: 10px;
+	border: 2px solid rgb(24, 199, 199);
+}
+.iPeed:hover {
+	background-color: rgba(47, 206, 206, 0.342);
+}
+.resetButton button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	color: rgb(24, 228, 228);
+	border: 0;
+	padding: 0.5rem;
+	font-size: 5vh;
+	outline: none;
+}
+.resetButton button:hover {
+	font-size: 5.4vh;
+}
+.reset {
+	cursor: pointer;
+}
+.splash {
+	width: 30px;
+	height: auto;
+	display: flex;
+	margin-left: 10px;
+}

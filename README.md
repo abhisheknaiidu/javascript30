@@ -1,5 +1,10 @@
 # JAVASCRIPT 30 Days Challenge :
 
+
+## Day 0 : Music Player
+
+![Screenshot](Day0.PNG)
+
 ## Day 1 : Drum Kit
 
 Link : https://abhisheknaiidu.github.io/JavaScript30/Day1/
@@ -50,4 +55,8 @@ Link : https://github.com/abhisheknaiidu/Dev-s-Blog
 ![Screenshot](github.png)
 
 Link : https://github.com/abhisheknaiidu/JavaScript30/tree/master/react/github_api
+
+## Currency Exchange Rate Calculator
+Javascript application for checking real time currency rates.<br />
+![Screenshot](https://github.com/Yoddha99/javascript30/blob/master/LiveCurrencyexchange/sss.png)
 

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    background : linear-gradient(177deg, rgba(91,109,156,1) 0%, rgba(18,25,59,1) 100%);
+}
+
+.wrapper {
+    padding: 50px;
+    width: 900px;
+    background-color: #ddd;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+
+p {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.app-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-left, .section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 60px;
+}
+
+input, select {
+    color: #000;
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+select {
+    padding: 10px 20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+input:focus, select:focus {
+    outline: none;
+    color: rgb(33, 121, 192);
+}
+
+option {
+    color: #000;
+}
+
+.swap {
+    align-self: flex-end;
+    margin: 5px;
+    padding: 5px 50px;
+    background-image: linear-gradient(177deg, rgba(104,147,255,1) 0%, rgba(70,203,108,0.9075960309317942) 87%);
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.swap:focus {
+    outline: none;
+    background-image: linear-gradient(177deg, rgba(78,109,187,1) 0%, rgba(61,171,92,0.9075960309317942) 87%);
+}
+
+.rate-info {
+    margin-top: 25px;
+    margin-bottom: 0;
+}

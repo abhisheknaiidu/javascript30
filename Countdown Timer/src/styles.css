@@ -1,0 +1,29 @@
+body {
+  font-family: Open "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #cfcccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 200px;
+  text-align: center;
+  padding: 12px;
+  background-color: #353131;
+  border: 2px solid black;
+  font-family: sans-serif;
+  box-shadow: 0 0 5px 3px #999;
+}
+
+.info {
+  font-family: Digital;
+  font-size: 80px;
+  font-weight: 500;
+  color: #fff;
+}
+
+td{
+  color: white;
+}

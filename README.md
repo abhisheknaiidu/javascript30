@@ -56,6 +56,10 @@ Link : https://github.com/abhisheknaiidu/Dev-s-Blog
 
 Link : https://github.com/abhisheknaiidu/JavaScript30/tree/master/react/github_api
 
+
+## Day 15 : Local Storage and Event Delegation
+![Screenshot](Day15.png)
+
 ## Currency Exchange Rate Calculator
 Javascript application for checking real time currency rates.<br />
 ![Screenshot](https://github.com/Yoddha99/javascript30/blob/master/LiveCurrencyexchange/sss.png)

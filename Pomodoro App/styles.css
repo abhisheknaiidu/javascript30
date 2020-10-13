@@ -1,0 +1,134 @@
+body {
+    background-color: #000000;
+    color : #ff1e56;
+    margin : 2%;
+}
+
+
+
+/*.header-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    ;
+}*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 2px yellow;    
+}
+
+.row {
+    width: 100%;
+}
+
+.timer {
+    color : yellow;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size : 20px;
+    width : 20rem;
+    height : 20rem;
+    border-radius: 10rem;
+    border : 5px solid #ff1e56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    border: 5px solid #ffac41;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top : 5%;
+    font-weight: bold;
+    padding : 2% 10% 2% 10%;
+    border-radius: 10px;
+}
+
+.start {
+    color : green;
+    border : 2px solid transparent;
+    padding : 1rem;
+    border-radius: 2rem;
+}
+
+
+.stop {
+    color : red;
+    border : 2px solid transparent;
+    padding : 1rem;
+    border-radius: 2rem;
+}
+
+.start:hover {
+    color : #3ce736;
+}
+
+.stop:hover {
+    color :rgb(245, 84, 84);
+}
+
+
+.add, .sub {
+    color : yellow;
+    border : 2px solid transparent;
+    padding : 1rem;
+    margin-bottom : 5%;
+    border-radius: 2rem;
+}
+
+.add:hover, .sub:hover {
+    color :rgb(241, 241, 117);
+}
+
+
+.inc-dec-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnText {
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: bold;;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+.break {
+    margin-bottom:5%;
+    padding : 2%;
+    background-color: #ff1e56;
+    font-weight: bold;
+    color : yellow;
+    width : 100%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.break-buttons {
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+*/
+#min, #sec {
+    font-weight: bold;
+    font-size: 30px;
+}

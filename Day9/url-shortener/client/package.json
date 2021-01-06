@@ -10,7 +10,7 @@
   },
   "proxy": "http://localhost:8080",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.11.0",
     "core-js": "^2.6.5",

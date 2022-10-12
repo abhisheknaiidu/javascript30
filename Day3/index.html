@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Day-3</title>
-</head>
-<body>
-<h3>CSS Variables With <span class="h2">JS</span></h3>
-<link rel="stylesheet" href="style.css">
-<div class="controls">
-    <label for="spacing">Spacing:</label>
-    <input id="spacing" type="range" name="spacing" min="0" max="200" value="1" data-sizing="px"> 
-    
-    <label for="blur">Blur:</label>
-    <input id="blur" type="range" name="blur" min="0" max="25" value="5" data-sizing="px">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Day-3</title>
+  </head>
+  <body>
+    <h3>CSS Variables With <span class="h2">JS</span></h3>
+    <link rel="stylesheet" href="style.css" />
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input
+        id="spacing"
+        type="range"
+        name="spacing"
+        min="0"
+        max="200"
+        value="1"
+        data-sizing="px"
+      />
 
-    <label for="base">Base Color</label>
-    <input id="base" type="color" name="base" value="#ffffff">
-</div>
-<img src="https://images.unsplash.com/photo-1566114828807-ed0a9f89390d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80">
-<script type="text/javascript" src="script.js"></script>
-</body>
+      <label for="blur">Blur:</label>
+      <input
+        id="blur"
+        type="range"
+        name="blur"
+        min="0"
+        max="25"
+        value="5"
+        data-sizing="px"
+      />
+
+      <label for="base">Base Color</label>
+      <input id="base" type="color" name="base" value="#ffffff" />
+
+      <label for="base">Grayscale</label>
+      <input
+        id="grayscale"
+        type="range"
+        min="0"
+        max="100"
+        name="grayscale"
+        value="1"
+        data-sizing="%"
+      />
+    </div>
+    <img
+      src="https://images.unsplash.com/photo-1566114828807-ed0a9f89390d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+    />
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>

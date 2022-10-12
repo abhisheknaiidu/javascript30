@@ -1,32 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap");
 :root {
-    --base: #ffffff;
-    --spacing: 10px;
-    --blur: 5px;
+  --base: #ffffff;
+  --spacing: 10px;
+  --blur: 5px;
+  --grayscale: 1%;
 }
 img {
-   padding: var(--spacing);
-   background: var(--base);
-   filter: blur(var(--blur))
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  filter: grayscale(var(--grayscale));
 }
 
 body {
-    text-align: center;
-    background: black;
-    color:pink;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    font-weight: 80;
-    font-size: 60px;
-
+  text-align: center;
+  background: black;
+  color: pink;
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-weight: 80;
+  font-size: 60px;
 }
 
 .h2 {
-    color: var(--base);
+  color: var(--base);
 }
 .controls {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 input {
-    width: 120px;
+  width: 120px;
 }

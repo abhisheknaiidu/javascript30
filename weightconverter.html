@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+      body{
+         margin-top: 70px; 
+         background:black ;
+         color:#fff;
+         
+      }
+      #r{
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 330px;
+  height: 450px;  
+}
+
+  </style>
+</head>
+<body>
+   <center>
+    <div class="container">
+        
+
+            
+        <div id="r">
+        <div class="row">
+            <div class="col-xl-17;">
+                <h1 class="display-5 text-center">Weight converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input 
+                        id="lbsInput"
+                        type="number" 
+                        class="form-control form-control-lg"
+                        placeholder="Enter Pounds...">
+                    </div>
+                </form>
+                <img src="footprint.png" style="width: 300px;">
+                <div id="output">
+                    <div class="card bg-warning mb-3">
+                        <div class="card-body">
+                            <span class="rounded-circle">
+                            <img src='gram.png' style="width:50px">
+                            <h4>Grams:</h4>
+                            <div id="gramsOutput"></div>
+                            </span>
+                        </div>
+                    </div>
+                
+
+                <div class="card bg-info mb-3">
+                    <div class="card-body">
+                        <img src='kilo.png' style="width:50px">
+                        <h4>Kilograms:</h4>
+                        <div id="kgOutput"></div>
+                    </div>
+                </div>
+
+                <div class="card bg-dark mb-3">
+                    <div class="card-body">
+                        <img src='ounce.png' style="width:50px">
+                        <h4>Ounces:</h4>
+                        <div id="ozOutput"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+</div>
+</center>
+<script>
+    document.getElementById('output').style.visibility
+    ='hidden';
+    document.getElementById('lbsInput')
+    .addEventListener('input',function(e)
+    {
+        document.getElementById('output').style.visibility
+    ='visible';
+        let p=e.target.value;
+        document.getElementById('gramsOutput').innerHTML
+        =p/0.0022046;
+        document.getElementById('kgOutput').innerHTML
+        =p/2.2046;
+        document.getElementById('ozOutput').innerHTML
+        =p*16;
+    });
+</script>
+
+</body>
+</html>
